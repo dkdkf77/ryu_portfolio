@@ -449,7 +449,7 @@ span {
   overflow: hidden;
 }
 
-.inner_divleft > img {
+.inner_divleft > a > img {
   position: absolute;
   width: 1000px;
   height: 600px;
@@ -595,7 +595,6 @@ span {
   box-sizing: border-box;
   padding: 80px 10px 80px 10px;
   font-size: 20px;
- 
 }
 
 .bottom_left{
