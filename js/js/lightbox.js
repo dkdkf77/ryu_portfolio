@@ -303,7 +303,7 @@
 
       $preloader = $(preloader);
 
-      //$image.width(preloader.width);
+      $image.width(preloader.width);
       //$image.height(preloader.height);
       windowWidth = $(window).width();
       windowHeight = $(window).height();
@@ -336,7 +336,7 @@
 
       } else {
         maxImageWidth = self.options.maxWidth || preloader.width || maxImageWidth;
-        maxImageHeight = self.options.maxHeight || preloader.height || maxImageHeight;
+      //  maxImageHeight = self.options.maxHeight || preloader.height || maxImageHeight;
       }
 
       // Is the current image's width or height is greater than the maxImageWidth or maxImageHeight
