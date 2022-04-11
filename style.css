@@ -1,0 +1,724 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.font-bold {
+  font-weight: 800;
+}
+.font-thin {
+  font-weight: 300;
+}
+
+.font-color {
+  color: #f3f3f3;
+}
+
+.wrap {
+  width: 100%;
+  background-color: #272626;
+  /* font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Nanum Myeongjo', serif; */
+}
+.wrap::before,
+.wrap::after {
+  clear: both;
+  content: '';
+  display: block;
+}
+.intro_left {
+  float: left;
+  width: 165px;
+  height: 100vh;
+  background-color: black;
+  padding: 150px 0 0 30px;
+  box-sizing: border-box;
+  position: fixed;
+  color: #f3f3f3;
+  font-size: 15px;
+  font-family: 'Nanum Myeongjo', serif;
+  z-index: 99;
+}
+
+#about::before,
+#about::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.intro_left_txt > nav ul li {
+  padding-top: 30px;
+}
+
+b {
+  font-weight: 800;
+}
+
+span {
+  font-weight: 300;
+}
+
+.main_right {
+  box-sizing: border-box;
+  width: calc(100% - 165px);
+  float: right;
+  margin: 0 auto;
+}
+
+.intro_txt {
+  box-sizing: border-box;
+  padding: 330px 0 0 40px;
+  background-image: url(../images/intro_img.JPG);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  color: #3d3c3c;
+}
+
+.section2 {
+  box-sizing: border-box;
+  width: 100%;
+}
+.intro_subtitle {
+  font-size: 15px;
+  margin-bottom: 3px;
+
+  font-family: 'Nanum Myeongjo', serif;
+}
+.intro_title {
+  font-size: 100px;
+  font-family: 'Black Han Sans', sans-serif;
+}
+.about_text1 {
+  color: #f3f3f3;
+}
+.about_text2 {
+  color: #f3f3f3;
+  font-weight: 300;
+}
+
+.img1 {
+  display: inline-block;
+  margin: 100px 30px 0 0;
+}
+
+.img1 img {
+  width: 70px;
+  height: 80px;
+}
+.img1 p {
+  font-weight: 300;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  text-align: center;
+  color: #f3f3f3;
+}
+
+.about{
+  margin: 30px auto;
+  width: 80%;
+  padding-left: 100px;
+}
+
+.about_left {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+}
+.about_right {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 40%;
+  margin-left: 85px;
+}
+.myfaceimg{
+  width: 300px;
+  height: 370px;
+}
+
+.myfaceimg > img {
+  display: inline-block;
+  width: 100%;
+}
+.section3 {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.about2_topside{
+  overflow: hidden;
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.about2_topside2{
+  position: relative;
+  width:  435px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.about2_topside > p {
+  width: 100%;
+  color: #f3f3f3;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Nanum Myeongjo', serif;
+  display: inline-block;
+}
+.about2_topside2 > img {
+  width: 100%;
+  
+
+}
+.about2_topside2 > p {
+  opacity: 0;
+  position: absolute;
+  right: -100px;
+  top: 200px;
+  color: #f3f3f3;
+  font-size: 12px;
+  text-align: right;
+  font-family: 'Nanum Myeongjo', serif;
+  transition: 0.5s;
+}
+
+.about2{
+  width: 80%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.about2_btmside {
+  margin-top: 30px;
+  position: relative;
+  display: inline-block;
+  width: 550px;
+  overflow: hidden;
+}
+
+.about2_btmside > p {
+  opacity: 0;
+  position: absolute;
+  left: -170px;
+  top: 300px;
+  color: #f3f3f3;
+  font-size: 13px;
+  text-align: left;
+  font-family: 'Nanum Myeongjo', serif;
+  transition: 0.5s;
+}
+.about2_btmside > img {
+  width: 100%;
+}
+.about2_btmside2 {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 30px;
+  display: inline-block;
+  width: 550px;
+  overflow: hidden;
+}
+
+.about2_btmside2 > p {
+  opacity: 0;
+  position: absolute;
+  right: -100px;
+  top: 400px;
+  color: #f3f3f3;
+  font-size: 13px;
+  text-align: right;
+  font-family: 'Nanum Myeongjo', serif;
+  transition: 0.5s;
+}
+
+.about2_btmside2 > img {
+  width: 100%;
+}
+
+.section3 div:hover > img  {
+  opacity: 0.3;
+}
+
+.inner_divright img, .publishing01_left img {
+  width: 15px;
+  height: 15px;
+}
+.about2_topside2:hover > img, .bottom >div:hover >img{
+  opacity: .5;
+}
+
+.about2_topside2:hover > p{
+  transform: translateX(-110px);
+  opacity: 1;
+}
+
+.about2_btmside:hover > p {
+  transform: translate(200px, -30px);
+  opacity: 1;
+}
+.about2_btmside2:hover > p {
+  transform: translate(-120px, -60px);
+  opacity: 1;
+}
+
+.section3::before,
+.section3::after {
+  clear: both;
+  display: block;
+  content: '';
+}
+
+.section4 {
+  width: 100%;
+}
+.publishing_topside > p {
+  padding-left: 40px;
+  font-family: 'Black Han Sans', sans-serif;
+}
+
+.section4_title {
+  margin-top: 200px;
+  font-size: 100px;
+  text-align: left;
+}
+
+.section4_subtitle,
+.publishing_topside3 {
+  font-size: 300px;
+  font-family: 'Black Han Sans', sans-serif;
+  color: #f3f3f3;
+}
+
+.publishing_btmside {
+  width: 100%;
+  height: 1000px;
+  background-color: #ECC4C2;
+  position: relative;
+  overflow: hidden;
+}
+.publishing01_left {
+  box-sizing: border-box;
+  padding: 230px 0 0 40px;
+  width: 40%;
+  height: 1000px;
+  background-color: #f3f3f3;
+}
+
+.br {
+  padding-bottom: 70px;
+}
+
+.publishing01_right {
+  width: 60%;
+  background-image: url(../images/project01_mopup.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  width: 1100px;
+  height: 700px;
+  position: absolute;
+  right: -85px;
+  top: 200px;
+}
+
+.text_size1 {
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 30px;
+  color: #f4d191;
+}
+.text_size2 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #3d3c3c;
+}
+
+.text_size6 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #3d3c3c;
+}
+
+.text_size3 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  color: #3d3c3c;
+}
+
+.text_size5{
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  color: #3d3c3c;
+}
+
+.text_size4{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+  color: #3d3c3c;
+
+}
+
+.font_color2{
+  color: #ff8264;
+}
+
+.publishing_topside2 {
+  font-size: 300px;
+  font-family: 'Black Han Sans', sans-serif;
+  color: #f3f3f3;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.publishing_btmside2 {
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+
+.publishing01_btmside {
+  width: 100%;
+  height: 1000px;
+  background-color: #667799;
+  position: relative;
+  overflow: hidden;
+}
+.publishing01_left2 {
+  box-sizing: border-box;
+  padding: 230px 0 0 40px;
+  width: 60%;
+  height: 1000px;
+  background-color: #f3f3f3;
+  position: absolute;
+  right: 100px;
+}
+
+.font_color01{
+  color: #6382BF;
+}
+
+.br {
+  padding-bottom: 70px;
+}
+
+.publishing01_right2 {
+  width: 40%;
+  background-image: url(../images/mac-gc78c0a37a_1280.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 900px;
+  height: 700px;
+  position: absolute;
+  left: 0px;
+  top: 200px;
+}
+
+.publishing01_right3 {
+  width: 60%;
+}
+
+.right_img3{
+  width: 1100px;
+  height: 700px;
+  position: absolute;
+  right: -100px;
+  top: 200px;
+}
+
+.right_img3 > img{
+  width: 100%;
+  height: 700px;
+}
+
+.publishing_topside3 {
+  padding-left: 40px;
+}
+
+.bigdiv {
+  width: 100%;
+  height: 1000px;
+  background-color: #f3f3f3;
+}
+
+.inner_divleft {
+  width: 60%;
+  float: left;
+  height: 1000px;
+  background-color: #f4d191;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner_divleft > a > img {
+  position: absolute;
+  width: 1000px;
+  height: 600px;
+  left: -20px;
+  top: 200px;
+  z-index: 11;
+}
+
+.inner_divright {
+  text-align: right;
+  padding: 230px 40px 0 0;
+  height: 1000px;
+}
+
+.design_topside {
+  margin: 30px 0;
+  font-size: 100px;
+  text-align: right;
+  color: #f3f3f3;
+  font-family: 'Black Han Sans', sans-serif;
+  padding-right: 40px;
+}
+
+.design_btmside {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #f3f3f3;
+  padding: 50px 210px;
+}
+.inner {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.design_box {
+  box-shadow: 0 5px 5px #3d3c3c;
+  /* overflow: hidden; */
+  position: relative;
+  transform: scale(1);
+  width: 250px;
+  height: 250px;
+  background-color: #f4d191;
+  display: inline-block;
+  transition: 0.5s;
+}
+.design_box >a > img {
+  box-shadow: 0 5px 15px #3d3c3c;
+  width: 350px;
+  height: 300px;
+  z-index: 999;
+}
+
+.design_box:hover {
+  transform: scale(1.2);
+  z-index: 2;
+  box-shadow: 0 10px 10px #3d3c3c;
+  
+}
+
+
+.background{
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+}
+.margin_div{
+  width: 100%;
+  margin: 0 auto;
+}
+
+.box:nth-child()
+
+
+.contact_right {
+  margin: 0 auto;
+  display: inline-block;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.contact_right > p {
+  padding: 35px 0;
+  font-weight: 300;
+}
+
+.contact_right > p > span {
+  font-weight: 700;
+}
+
+.big_div{
+  width: 500px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  box-shadow: 0 3px 3px  black;
+}
+
+.topdiv_img{
+  
+  background-image: url(../images/KakaoTalk_20220404_154153268.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.midle_txt{
+  box-sizing: border-box;
+  padding:  20px 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.bottom_left, .bottom_right{
+  display: inline-block;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.bottom_left ul > li, .bottom_right  ul > li {
+  padding-top: 20px;
+}
+
+
+
+.bottom_left,  .bottom_right{
+  box-sizing: border-box;
+  padding: 80px 10px 80px 10px;
+  font-size: 20px;
+}
+
+.bottom_left{
+  border-right: 1px solid black;
+}
+
+
+.contact_box {
+  width: 100%;
+  background-color: #F3F3F3;
+}
+
+.toptxt{
+  color: #f3f3f3;
+  font-size: 100px;
+  font-family: 'Black Han Sans', sans-serif;
+  background-color: #272626;
+  padding-left: 40px;
+}
+
+.contactme{
+  width: 75%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.contact_img {
+  width: 500px;
+  position: relative;
+  
+}
+
+.contact_left {
+  width: 59%;
+  display: inline-block;
+  margin-right: 10px;
+  
+}
+
+.contact_img> img{
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 2px 2px #3d3c3c;
+}
+
+.contact_img> p{
+  color: #f3f3f3;
+  position: absolute;
+  right: -8px;
+  bottom: 80px;
+  font-size: 55px;
+  font-family: 'Black Han Sans', sans-serif;
+}
+.webdesigner{
+  position: absolute;
+  color: #272626;
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 55px;
+  right: -275px;
+  bottom: 20px;
+}
+.webdesigner>span{
+  color: #f3f3f3;
+}
+
+
+.contact_img> p > span{
+  color: #272626;
+}
+
+
+.contact_left > img {
+  width: 100%;
+}
+
+.contact_right {
+  width: 39%;
+  display: inline-block;
+
+}
+
+
+.contact_txt_box{
+  
+  border-left: 3px solid #272626;
+  display: inline-block;
+}
+
+.contact_txt_box{
+  display: inline-block;
+  position: relative;
+}
+
+.ball{
+  border: 1px solid #272626;
+  width: 15px;
+  height: 15px;
+  background-color: #272626;
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  border-radius: 50%;
+}
+
+.right_text{
+  margin-left: 20px;
+}
+
+.span{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sub-span {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
