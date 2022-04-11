@@ -204,3 +204,36 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+
+/*************************************************************************/
+
+
+.lb-outerContainer {
+
+  width: 1200px !important;
+  overflow-y: scroll;
+}
+
+
+.lightbox .lb-image {
+ /*position: absolute;
+  top: 50%;
+  transform: translate(0 , -50%);*/
+  margin: 0 auto;
+  max-width: 100% !important;
+}
+
+
+.lightbox {
+  position: fixed;
+  left: 0;
+  top:50px !important;
+  width: 100%;
+  height:100%;
+  overflow: hidden;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+  outline: none;
+}

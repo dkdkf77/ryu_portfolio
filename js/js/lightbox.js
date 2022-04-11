@@ -304,7 +304,7 @@
       $preloader = $(preloader);
 
       $image.width(preloader.width);
-      $image.height(preloader.height);
+      //$image.height(preloader.height);
       windowWidth = $(window).width();
       windowHeight = $(window).height();
 
@@ -336,12 +336,12 @@
 
       } else {
         maxImageWidth = self.options.maxWidth || preloader.width || maxImageWidth;
-        maxImageHeight = self.options.maxHeight || preloader.height || maxImageHeight;
+      //  maxImageHeight = self.options.maxHeight || preloader.height || maxImageHeight;
       }
 
       // Is the current image's width or height is greater than the maxImageWidth or maxImageHeight
       // option than we need to size down while maintaining the aspect ratio.
-      if ((preloader.width > maxImageWidth) || (preloader.height > maxImageHeight)) {
+      /*if ((preloader.width > maxImageWidth) || (preloader.height > maxImageHeight)) {
         if ((preloader.width / maxImageWidth) > (preloader.height / maxImageHeight)) {
           imageWidth  = maxImageWidth;
           imageHeight = parseInt(preloader.height / (preloader.width / imageWidth), 10);
@@ -353,8 +353,8 @@
           $image.width(imageWidth);
           $image.height(imageHeight);
         }
-      }
-      self.sizeContainer($image.width(), $image.height());
+      }*/
+      self.sizeContainer($image.width(), 800);
     };
 
     // Preload image before showing
