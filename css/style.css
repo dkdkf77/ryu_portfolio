@@ -678,20 +678,47 @@ span {
 }
 
 .contact_right {
-  background-color: #ff8264;
   width: 39%;
   display: inline-block;
 
 }
 
 
-.border{
+.contact_txt_box{
   
   border-left: 3px solid #272626;
-  height: 650px;
   display: inline-block;
 }
 
 .contact_txt_box{
   display: inline-block;
+  position: relative;
+}
+
+.ball{
+  border: 1px solid #272626;
+  width: 15px;
+  height: 15px;
+  background-color: #272626;
+  display: inline-block;
+  position: absolute;
+  left: -10px;
+  border-radius: 50%;
+}
+
+.right_text{
+  margin-left: 20px;
+}
+
+.span{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sub-span {
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 15px;
+  line-height: 21px;
+  margin-bottom: 20px;
 }
