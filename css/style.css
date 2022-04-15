@@ -393,6 +393,7 @@ span {
 .publishing01_left {
   box-sizing: border-box;
   padding: 230px 0 0 40px;
+  
   width: 40%;
   height: 1000px;
   background-color: #f3f3f3;
@@ -400,6 +401,9 @@ span {
 
 .br {
   padding-bottom: 70px;
+}
+.gotohompage > a{
+  display: inline-block;  
 }
 
 .publishing01_right {
@@ -494,7 +498,11 @@ span {
 }
 
 .br {
-  padding-bottom: 70px;
+  padding-bottom: 60px;
+}
+a>p {
+  font-family: 'Nanum Myeongjo', serif;
+  padding-bottom: 20px;
 }
 
 .publishing01_right2 {
@@ -822,6 +830,29 @@ span {
   box-sizing: border-box;
   padding: 4px 0;
 }
+
+.page{
+  text-align: center;
+  line-height: 50px;
+  width: 90px;
+  height: 50px;
+  background-color: #6382BF;
+  border-radius: 10px;
+  color: #f3f3f3;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+
+.btn_box > a > p{
+  text-align: center;
+  line-height: 50px;
+  width: 90px;
+  background-color: #F68602;
+  border-radius: 10px;
+  color: #f3f3f3;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
 
 
 @media  screen and (max-width: 1500px){ 
